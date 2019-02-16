@@ -1,21 +1,23 @@
 {
-    "title": "Portfolio",
+    "title": "Personal Website",
     "name": "portfolio",
     "version": "1.0.0",
-    "description": "Portfolio Using Bootstrap",
+    "description": "Portfolio",
     "keywords": [
         "css",
         "sass",
         "html",
-        "responsive",
-        "theme",
-        "template"
+        "responsive"
     ],
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Matteo Minardi",
+    "scripts": {
+        "dev" : "gulp dev",
+        "dist" : "gulp"
+    },
     "dependencies": {
-        "@fortawesome/fontawesome-free": "5.7.0",
-        "bootstrap": "4.2.1",
+        "@fortawesome/fontawesome-free": "5.7.2",
+        "bootstrap": "4.3.1",
         "jquery": "3.3.1",
         "jquery.easing": "^1.4.1",
         "simple-line-icons": "^2.4.1"
